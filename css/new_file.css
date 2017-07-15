@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	width: 750px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;//溢出隐藏
+}
+.container{
+	width: 100%;
+	height: 100%;
+	
+	background-image: url(../img/game_youxi_bg.jpg);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	width: 100%;
+	height: 30%;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	position: relative;
+}
+
+.nav .time{
+	width: 30%;
+	position: relative;
+}
+.nav .time img{
+	width: 100%;
+}
+.nav .time span{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	font-size: 25px;
+}
+.nav .share{
+	width: 15%;
+	position: absolute;
+	top: 0;
+	right: 10%;
+	
+}
+.nav .share img{
+	width: 100%;
+}
+.nav .startGame{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	right: 30%;
+}
+.nav .startGame img{
+	width: 100%;
+}
+.nav .chance{
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	width: 35%;
+	font-size: 40px;
+}
+.nav .chance span{
+	color: #cc4431;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+#gopher{
+	width: 100%;
+	height: 70%;
+}
+#gopher div{
+	width: 33.3%;
+	float: left;
+}
+#gopher div img{
+	width: 100%;
+}
+#endImg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+#endImg img{
+	width: 60%;
+	position:absolute ;
+	left: 50%;
+	margin-left: -30%;
+	top: 30%;
+}
+#endImg h3{
+	width: 100%;
+	text-align: center;
+	position:absolute ;
+	top: 80%;
+	font-size: 60px;
+	color: #fff;
+}
+#endImg h2{
+	width: 20%;
+	height: 30%;
+	text-align: center;
+	position:absolute ;
+	left: 35%;
+	top: 95%;
+	color: #fff;
+	border-radius: 20px;
+	background: greenyellow;
+}
